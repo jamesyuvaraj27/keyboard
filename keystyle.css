@@ -1,0 +1,172 @@
+.keyboard{
+    background-color: darkgrey;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 12%;
+    color: aliceblue;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    height: 40px;
+    
+}
+#fun:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+}
+
+#fun{
+        cursor: pointer;
+
+    font-size: 15px;
+    width: 90px;
+    margin: 2px;
+    border-radius: 10px;
+        background-color: orange
+
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    height: 60px;
+}
+#num{
+    font-size: 16px;
+            cursor: pointer;
+
+    width: 90px;
+    margin: 2px;
+    border-radius: 10px;
+        background-color: cornflowerblue ;
+
+
+}
+#num:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+}
+
+
+.third{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+        height: 60px;
+
+}
+#alpha1{
+    font-size: 16px;
+    width: 90px;
+            cursor: pointer;
+
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+        background-color: black;
+
+    
+}
+#alpha1:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+    color: black;
+}
+
+
+#alphaplus{
+    font-size: 16px;
+            cursor: pointer;
+
+    padding-bottom: 60px;
+    padding-top: 60px;
+    width: 90px;
+    margin: 2px;background-color: black;
+        color: white;
+    border-radius: 10px;
+
+}
+#alphaplus:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+    color: black;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-around;
+            cursor: pointer;
+
+    margin: 5px;
+    width: 94%;
+        height: 60px;
+
+}
+#alpha2{
+    font-size: 16px;
+    width: 90px;
+            cursor: pointer;
+
+    margin: 2px;
+        background-color: black;
+        color: white;
+    border-radius: 10px;
+
+}
+#alpha2:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+    color: black;
+}
+.fifth{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+        height: 60px;
+
+}
+#alpha3{
+    font-size: 16px;
+            cursor: pointer;
+
+    width: 90px;
+    margin: 2px;
+    background-color: black;
+        color: white;
+    border-radius: 10px;
+
+}
+#alpha3:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+    color: black;
+}
+.ctrl{
+    display: flex;
+            cursor: pointer;
+
+    justify-content: space-around;
+    margin: 5px;
+    width: 94%;
+        height: 60px;
+
+}
+#last{
+    font-size: 16px;
+    width: 90px;
+    margin: 2px;background-color: black;
+        color: white;
+                cursor: pointer;
+
+    border-radius: 10px;
+
+}
+#last:hover{
+    background-color: whitesmoke;
+    margin: 1px;
+    color: black;
+}
