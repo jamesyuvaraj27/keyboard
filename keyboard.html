@@ -10,6 +10,9 @@
 </head>
 <body>
     <div class="keyboard">
+    <div class="typed-display">
+        <textarea id="typedOutput" rows="2" placeholder="Click keyboard keys to type..." readonly></textarea>
+    </div>
     <div class="first">
         <button id="fun">ESC</button>
         <button id="fun">f1 <sub><i class="fa-regular fa-face-grin-wide"></i></sub></button>
@@ -45,7 +48,7 @@
     <button id="num">( <sub style="padding: 15px;">9</sub></button>
     <button id="num">) <sub style="padding: 15px;">0</sub></button>
     <button id="num">_ <sub style="padding: 15px;">-</sub></button>
-    <button id="num">+ <sub style="padding: 15px;"></sub></button>
+    <button id="num">+ <sub style="padding: 15px;">=</sub></button>
     <button id="num" style="width: 160px; ;">BKSP</button>
     <button id="num">NUM <br>LOCK</button>
     <button id="num">/</button>
@@ -124,5 +127,6 @@
         <button id="last">. <sub>DEL</br></button>
     </div>
     </div>
+    <script src="keyboard.js"></script>
 </body>
 </html>

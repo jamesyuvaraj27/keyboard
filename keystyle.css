@@ -5,7 +5,20 @@
     margin-top: 12%;
     color: aliceblue;
 }
-
+.typed-display{
+    margin: 10px;
+}
+#typedOutput{
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: bisque;
+    color: black;
+}
 .first{
     display: flex;
     justify-content: space-around;
